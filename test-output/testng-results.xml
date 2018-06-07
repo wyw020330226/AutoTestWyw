@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="17" started-at="2018-06-07T10:54:20Z" finished-at="2018-06-07T10:54:20Z">
+    <groups>
+    </groups>
+    <test name="case1" duration-ms="17" started-at="2018-06-07T10:54:20Z" finished-at="2018-06-07T10:54:20Z">
+      <class name="charter5.DBConfig">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:charter5.DBConfig@6a2bcfcb]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:charter5.DBConfig@6a2bcfcb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:charter5.DBConfig@6a2bcfcb]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:charter5.DBConfig@6a2bcfcb]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- charter5.DBConfig -->
+      <class name="charter5.TestDBConnection">
+        <test-method status="PASS" signature="runOtherTest1()[pri:0, instance:charter5.TestDBConnection@4de8b406]" name="runOtherTest1" duration-ms="4" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest1 -->
+        <test-method status="PASS" signature="runOtherTest2()[pri:0, instance:charter5.TestDBConnection@4de8b406]" name="runOtherTest2" duration-ms="1" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest2 -->
+      </class> <!-- charter5.TestDBConnection -->
+    </test> <!-- case1 -->
+  </suite> <!-- TestAll -->
+</testng-results>
