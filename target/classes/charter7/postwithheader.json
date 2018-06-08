@@ -1,23 +1,52 @@
 [
-{"description":"this is a post request with header",
-"request":{
-"uri":"/postwithheader",
-"method":"post",
-"headers":{
-"content-type":"application/json"
-},
-"json":{
-"name":"test",
-"age":"20"
-}
-},
-"response":{
-"json":{
-"name":"test",
-"age":"20"
+{
+		"description": "this is a get request that will return  cookies",
+		"request": 
+		{
+			"uri": "/getcookies",
+			"method": "get"
+		},
 
-}
-}
+		"response": 
+		{
+			"cookies": 
+			{
+				"login": "true"
+			},
 
-}
+			"text": "successfully get the cookies!"
+		}
+	},
+	{
+		"description": "this is a post request with header",
+		"request": 
+		{
+			"uri": "/postwithheader",
+			"method": "post",
+			"headers": 
+			{
+				"content-type": "application/json"
+			},
+
+			"cookies": 
+			{
+				"login": "true"
+			},
+
+			"json": 
+			{
+				"name": "test",
+				"age": "20"
+			}
+		},
+
+		"response": 
+		{
+			"json": 
+			{
+				"name": "testname",
+				"age": "201"
+			}
+		}
+	}
 ]

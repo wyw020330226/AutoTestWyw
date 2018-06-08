@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="262" started-at="2018-06-08T09:52:51Z" finished-at="2018-06-08T09:52:51Z">
+  <suite name="Default suite" duration-ms="210" started-at="2018-06-08T10:34:56Z" finished-at="2018-06-08T10:34:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="262" started-at="2018-06-08T09:52:51Z" finished-at="2018-06-08T09:52:51Z">
-      <class name="charter9.MyCookiesForGet">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:charter9.MyCookiesForGet@32d992b2]" name="beforeTest" is-config="true" duration-ms="12" started-at="2018-06-08T17:52:51Z" finished-at="2018-06-08T17:52:51Z">
+    <test name="Default test" duration-ms="210" started-at="2018-06-08T10:34:56Z" finished-at="2018-06-08T10:34:57Z">
+      <class name="charter9.MyCookiesForPost">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:charter9.MyCookiesForPost@4439f31e]" name="beforeTest" is-config="true" duration-ms="8" started-at="2018-06-08T18:34:56Z" finished-at="2018-06-08T18:34:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testGetCookies()[pri:0, instance:charter9.MyCookiesForGet@32d992b2]" name="testGetCookies" duration-ms="221" started-at="2018-06-08T17:52:51Z" finished-at="2018-06-08T17:52:51Z">
+        <test-method status="PASS" signature="testGetCookies()[pri:0, instance:charter9.MyCookiesForPost@4439f31e]" name="testGetCookies" duration-ms="168" started-at="2018-06-08T18:34:56Z" finished-at="2018-06-08T18:34:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCookies -->
-        <test-method status="PASS" signature="testGetWithCookies()[pri:0, instance:charter9.MyCookiesForGet@32d992b2]" name="testGetWithCookies" duration-ms="12" started-at="2018-06-08T17:52:51Z" depends-on-methods="charter9.MyCookiesForGet.testGetCookies" finished-at="2018-06-08T17:52:51Z">
+        <test-method status="PASS" signature="testGetWithCookies()[pri:0, instance:charter9.MyCookiesForPost@4439f31e]" name="testGetWithCookies" duration-ms="16" started-at="2018-06-08T18:34:57Z" depends-on-methods="charter9.MyCookiesForPost.testGetCookies" finished-at="2018-06-08T18:34:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetWithCookies -->
-      </class> <!-- charter9.MyCookiesForGet -->
+      </class> <!-- charter9.MyCookiesForPost -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
