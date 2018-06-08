@@ -2,38 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestAll" duration-ms="17" started-at="2018-06-07T10:54:20Z" finished-at="2018-06-07T10:54:20Z">
+  <suite name="Default suite" duration-ms="262" started-at="2018-06-08T09:52:51Z" finished-at="2018-06-08T09:52:51Z">
     <groups>
     </groups>
-    <test name="case1" duration-ms="17" started-at="2018-06-07T10:54:20Z" finished-at="2018-06-07T10:54:20Z">
-      <class name="charter5.DBConfig">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:charter5.DBConfig@6a2bcfcb]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:charter5.DBConfig@6a2bcfcb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
+    <test name="Default test" duration-ms="262" started-at="2018-06-08T09:52:51Z" finished-at="2018-06-08T09:52:51Z">
+      <class name="charter9.MyCookiesForGet">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:charter9.MyCookiesForGet@32d992b2]" name="beforeTest" is-config="true" duration-ms="12" started-at="2018-06-08T17:52:51Z" finished-at="2018-06-08T17:52:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:charter5.DBConfig@6a2bcfcb]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
+        <test-method status="PASS" signature="testGetCookies()[pri:0, instance:charter9.MyCookiesForGet@32d992b2]" name="testGetCookies" duration-ms="221" started-at="2018-06-08T17:52:51Z" finished-at="2018-06-08T17:52:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:charter5.DBConfig@6a2bcfcb]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
+        </test-method> <!-- testGetCookies -->
+        <test-method status="PASS" signature="testGetWithCookies()[pri:0, instance:charter9.MyCookiesForGet@32d992b2]" name="testGetWithCookies" duration-ms="12" started-at="2018-06-08T17:52:51Z" depends-on-methods="charter9.MyCookiesForGet.testGetCookies" finished-at="2018-06-08T17:52:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- charter5.DBConfig -->
-      <class name="charter5.TestDBConnection">
-        <test-method status="PASS" signature="runOtherTest1()[pri:0, instance:charter5.TestDBConnection@4de8b406]" name="runOtherTest1" duration-ms="4" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOtherTest1 -->
-        <test-method status="PASS" signature="runOtherTest2()[pri:0, instance:charter5.TestDBConnection@4de8b406]" name="runOtherTest2" duration-ms="1" started-at="2018-06-07T18:54:20Z" finished-at="2018-06-07T18:54:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOtherTest2 -->
-      </class> <!-- charter5.TestDBConnection -->
-    </test> <!-- case1 -->
-  </suite> <!-- TestAll -->
+        </test-method> <!-- testGetWithCookies -->
+      </class> <!-- charter9.MyCookiesForGet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,39 @@
+[
+	{
+		"description": "this is a get request that will return  cookies",
+		"request": 
+		{
+			"uri": "/getcookies",
+			"method": "get"
+		},
+
+		"response": 
+		{
+			"cookies": 
+			{
+				"login": "true"
+			},
+
+			"text": "successfully get the cookies!"
+		}
+	},
+
+	{
+		"description": "this is a get request with  cookies",
+		"request": 
+		{
+			"uri": "/getwithcookies",
+			"method": "get",
+			"cookies": 
+			{
+				"login": "true"
+			}
+		},
+
+		"response": 
+		{
+			"status": "200",
+			"text": "successfully get the cookies!"
+		}
+	}
+]

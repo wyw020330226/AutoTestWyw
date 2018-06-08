@@ -1,0 +1,21 @@
+[
+	{
+		"description": "模拟一个不带参数的get请求",
+		"request": 
+		{
+			"uri": "/getdemowithtowcookies",
+			"method": "get"
+		},
+
+		"response": 
+		{
+			"cookies": 
+			{
+				"login": "true",
+				"status": "200"
+			},
+
+			"text": "这是一个没有参数的get请求"
+		}
+	}
+]
